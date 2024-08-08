@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.container {
+  display: flex;
+}
+.flex-item {
+  background-color: white;
+  color: black;
+}
+.flex-item1 {
+  border-style: dotted;
+  border-width: 2px;
+}

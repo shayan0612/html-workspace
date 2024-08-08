@@ -1,0 +1,99 @@
+body {
+  padding: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  flex: auto;
+}
+.menu {
+  display: flex;
+  padding: 39px;
+}
+.menu p {
+  font-family: Fira Sans;
+  font-size: 62.92px;
+  font-weight: 700;
+  line-height: 74.5px;
+}
+.button h3 {
+  margin-left: 42px;
+}
+.button h2 {
+  margin-left: 42px;
+}
+.button {
+  font-family: Fira Sans;
+}
+.subelements {
+  position: relative;
+  display: flex;
+  height: 50px;
+  width: 415px;
+  margin-left: 42px;
+  margin-bottom: 45px;
+}
+.element-buttons {
+  width: 178px;
+  background-color: #ed0025;
+
+  border-radius: 56px;
+  color: white;
+  font-family: Fira Sans;
+  height: 100%;
+  border: none;
+  margin-left: -185px;
+  margin-top: 10px;
+}
+.element-input {
+  border: 10px solid #ffffff;
+  border-radius: 56px;
+  padding-left: 10px;
+
+  height: 100%;
+
+  color: black;
+  width: 100%;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+.element-buttons:hover {
+  background-color: #942727;
+}
+
+.element-buttons:active {
+  background-color: #992424;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+@media screen and (max-width: 800px) {
+  .menu {
+    display: block;
+  }
+  .menu img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .menu p {
+    font-size: 50px;
+  }
+  .subelements {
+    margin-left: 25px;
+  }
+  .nav-img {
+    margin-left: 61px;
+  }
+  .element-input {
+    width: 80%;
+  }
+  .element-buttons {
+    width: 151px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .nav-img {
+    margin-left: 106px;
+  }
+}

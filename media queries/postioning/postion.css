@@ -1,0 +1,17 @@
+.container {
+  background-color: rgb(21, 181, 221);
+  text-align: center;
+}
+
+.box-1 {
+  background-color: black;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+.box-2 {
+  background-color: red;
+}
+.box-3 {
+  background-color: cadetblue;
+}
